@@ -1,0 +1,40 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+}
+.content{
+    position: fixed;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    bottom: 25px;
+    width: 100%;
+}
+.open-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.app-name{
+    display: block;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.logo-icon{
+    display: block;
+    float: left;
+    margin-bottom: 0;
+    background: url('../img/logo.png') no-repeat ;
+    background-size: 75px 75px;
+    height: 75px;
+    width: 75px;
+}

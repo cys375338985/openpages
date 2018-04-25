@@ -1,0 +1,25 @@
+.logo-icon{
+   transition: transform 1s, rotate 0.1s linear,opacity 2s;
+}
+.logo-icon_start{
+   /* padding-: ;*/
+    transform: translate(0,-200%) rotate(0);
+    opacity: 0;
+}
+
+.logo-icon_end{
+    /* padding-: ;*/
+    transform: translate(0,0) rotate(3600deg);
+    opacity: 1;
+}
+.app-name{
+    transition: transform 1s,opacity 2s;
+}
+.app-name_start{
+    transform: translate(0, 600%) ;
+    opacity: 0;
+}
+.app-name_end{
+    transform: translate(0, 0) ;
+    opacity: 1;
+}

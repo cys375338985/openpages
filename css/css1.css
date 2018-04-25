@@ -1,0 +1,200 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #333333;
+}
+a:hover{
+    color: #333333;
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+.content{
+    display: flex;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    bottom: 10px;
+}
+.open-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.app-name{
+    display: block;
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #777;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.logo-icon{
+    float: left;
+    margin-bottom: 0;
+    background: url('../img/logo.png') no-repeat ;
+    background-size: 75px 75px;
+    height: 75px;
+    width: 75px;
+}
+.login-content-wapper{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0.5px solid #8a8a8a;
+    width: 100%;
+    bottom: 0px;
+    height: 115px;
+}
+.login-content{
+    display: block;
+    align-self: center;
+    padding-top: 15px;
+    height: 115px;
+}
+.login-item{
+    position: relative;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 100px;
+    color: #333333;
+    border-radius: 5px;
+}
+.login-item p.login-des {
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 10px;
+}
+
+.login-img{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+.login-img_stu{
+    background: url("../img/stu_wx_login.png")    no-repeat  center;
+    background-size: 50px 50px;
+}
+
+.login-img_com{
+    background: url("../img/com_wx_login.png")   no-repeat  center;
+    background-size: 50px 50px;
+}
+
+.login-img_th{
+    background: #fff  url("../img/th_wx_login.png") no-repeat  center;
+    background-size: 50px 50px;
+}
+.blur{
+    filter:blur(5px);
+}
+.login-form{
+    position: fixed;
+    display: flex;
+    background-color: #777777;
+    opacity: .7;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: flex-end;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 115px;
+    width: 100%;
+}
+
+.login-form-item{
+    position: relative;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 120px;
+    height: 50px;
+}
+.nopadd{
+    padding-right: 0;
+    clear: both;
+}
+.login-form-item input[type=text],
+.login-form-item input[type=password]
+{
+    border: none;
+    display: block;
+    outline: none;
+    box-shadow: none;
+    background-color: #777777;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    opacity: 1;
+    width: 120px;
+}
+.login-form-item input::placeholder{
+    color: white;
+}
+
+.login-form-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 80%;
+    margin-right: 10px;
+    background-color: #333333;
+    height: 1px;
+    bottom: 0;
+}
+.nopadd::before{
+    display: none;
+}
+.login-form-item_btn{
+    position: fixed;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    color: #ffffff;
+    display: flex;
+    right: 15px;
+    outline: none;
+    box-shadow: none;
+    background-color: #777777;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
