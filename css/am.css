@@ -23,3 +23,27 @@
     transform: translate(0, 0) ;
     opacity: 1;
 }
+
+
+.login-content-wapper{
+    transition: transform 1s,opacity 2s;
+}
+.login-content-wapper_start{
+    transform: translate(0, 100%) ;
+}
+
+.login-content-wapper_end{
+    transform: translate(0, 0) ;
+}
+
+.login-form{
+    transition: transform 0.5s,opacity 0.5s;
+}
+.login-form_in_start{
+   /*// transform: translate(0, -100%);*/
+    opacity: 0;
+}
+.login-form_in_end{
+   /* transform: translate(0, 0) ;*/
+    opacity: 0.7;
+}
